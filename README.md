@@ -7,10 +7,7 @@ emotions from speech audio files into different categories.
 
 ```
 .
-├── data.zip/               # Compressed dataset, extract before running the notebook
 ├── modal.ipynb             # Main Jupyter Notebook: processing, training, and evaluation
-├── data_path.csv           # List of audio file paths
-├── features.csv            # Extracted audio features (MFCCs)
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
 ```
@@ -30,7 +27,15 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-3. Extract the dataset and place it in the `data` directory.
+3. Download and extract the dataset:
+   - [Google Drive - Dataset](https://drive.google.com/file/d/133nvHm8XLbU20nZZhziyYMPjHBC5Xu5g/view?usp=sharing)
+   - Extract to a folder named `data` in the project root.
+
+4. (Optional) Download and extract the preprocessed CSV files:
+   - [data_path.csv (Google Drive)](https://drive.google.com/file/d/1TGxYRKYuwxkJQnF9ebF_VnC-VECs5h44/view?usp=sharing)
+   - [features.csv (Google Drive)](https://drive.google.com/file/d/1RVzlehaiFg86fbMp9lBH5mhrNBXtsN3e/view?usp=sharing)
+
+   Place both files in the root directory of the project.
 
 ## Usage
 
