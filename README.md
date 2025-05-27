@@ -7,7 +7,7 @@ emotions from speech audio files into different categories.
 
 ```
 .
-├── modal.ipynb             # Main Jupyter Notebook: processing, training, and evaluation
+├── cnn_model.ipynb         # Main Jupyter Notebook: processing, training, and evaluation
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
 ```
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 2. Mở file notebook `modal.ipynb` bằng Jupyter Notebook hoặc JupyterLab:
 
 ```bash
-jupyter notebook modal.ipynb
+jupyter notebook cnn_model.ipynb
 ```
 
 3. Run through each cell sequentially to:
